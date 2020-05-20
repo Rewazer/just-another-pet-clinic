@@ -1,4 +1,4 @@
-package ru.hcc.petclinic.model;
+package ru.hcc.model;
 
 public class Vet extends Person{
 }
