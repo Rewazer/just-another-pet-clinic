@@ -1,12 +1,8 @@
 package ru.hcc.services;
 
-import java.security.acl.Owner;
-import java.util.Set;
+import ru.hcc.model.Owner;
 
-public interface OwnerService {
-    Owner findById(Long id);
+public interface OwnerService extends CrudService<Owner, Long> {
 
-    Owner save(Owner owner);
-
-    Set<Owner> findAll();
+    Owner findByLastName(String lastName);
 }
