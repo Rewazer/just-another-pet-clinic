@@ -2,10 +2,10 @@ package ru.hcc.model;
 
 import java.time.LocalDate;
 
-public class Pet {
+public class Pet extends BaseEntity {
     private PetType petType;
-private Owner owner;
-private LocalDate birthDay;
+    private Owner owner;
+    private LocalDate birthDay;
 
     public PetType getPetType() {
         return petType;
