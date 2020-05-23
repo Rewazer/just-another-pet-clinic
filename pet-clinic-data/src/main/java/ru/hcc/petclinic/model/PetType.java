@@ -1,4 +1,4 @@
-package ru.hcc.model;
+package ru.hcc.petclinic.model;
 
 public class PetType extends BaseEntity {
     private String name;

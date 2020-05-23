@@ -2,9 +2,9 @@
  * Created by SS on 22/05/2020
  */
 
-package ru.hcc.services;
+package ru.hcc.petclinic.services;
 
-import ru.hcc.model.Vet;
+import ru.hcc.petclinic.model.Vet;
 
 public interface VetService extends CrudService<Vet, Long> {
 

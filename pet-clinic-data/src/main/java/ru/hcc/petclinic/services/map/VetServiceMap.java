@@ -2,13 +2,15 @@
  * Created by SS on 22/05/2020
  */
 
-package ru.hcc.services.map;
+package ru.hcc.petclinic.services.map;
 
-import ru.hcc.model.Vet;
-import ru.hcc.services.VetService;
+import org.springframework.stereotype.Service;
+import ru.hcc.petclinic.model.Vet;
+import ru.hcc.petclinic.services.VetService;
 
 import java.util.Set;
 
+@Service
 public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
     @Override
     public Set<Vet> findAll() {

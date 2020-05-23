@@ -2,13 +2,15 @@
  * Created by SS on 22/05/2020
  */
 
-package ru.hcc.services.map;
+package ru.hcc.petclinic.services.map;
 
-import ru.hcc.model.Owner;
-import ru.hcc.services.OwnerService;
+import org.springframework.stereotype.Service;
+import ru.hcc.petclinic.model.Owner;
+import ru.hcc.petclinic.services.OwnerService;
 
 import java.util.Set;
 
+@Service
 public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService {
     @Override
     public Set<Owner> findAll() {

@@ -2,7 +2,7 @@
  * Created by SS on 22/05/2020
  */
 
-package ru.hcc.services;
+package ru.hcc.petclinic.services;
 
 import java.util.Set;
 

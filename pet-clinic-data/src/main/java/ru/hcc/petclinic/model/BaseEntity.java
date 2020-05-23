@@ -2,7 +2,7 @@
  * Created by SS on 22/05/2020
  */
 
-package ru.hcc.model;
+package ru.hcc.petclinic.model;
 
 import java.io.Serializable;
 

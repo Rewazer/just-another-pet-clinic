@@ -1,6 +1,6 @@
-package ru.hcc.services;
+package ru.hcc.petclinic.services;
 
-import ru.hcc.model.Owner;
+import ru.hcc.petclinic.model.Owner;
 
 public interface OwnerService extends CrudService<Owner, Long> {
 

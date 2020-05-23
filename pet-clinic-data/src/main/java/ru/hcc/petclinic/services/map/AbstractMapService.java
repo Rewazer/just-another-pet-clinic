@@ -2,7 +2,7 @@
  * Created by SS on 22/05/2020
  */
 
-package ru.hcc.services.map;
+package ru.hcc.petclinic.services.map;
 
 import java.util.HashMap;
 import java.util.HashSet;

@@ -4,23 +4,23 @@
 
 package ru.hcc.petclinic.bootstrap;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
-import ru.hcc.model.Owner;
-import ru.hcc.model.Vet;
-import ru.hcc.services.OwnerService;
-import ru.hcc.services.VetService;
-import ru.hcc.services.map.OwnerServiceMap;
-import ru.hcc.services.map.VetServiceMap;
+import ru.hcc.petclinic.model.Owner;
+import ru.hcc.petclinic.model.Vet;
+import ru.hcc.petclinic.services.OwnerService;
+import ru.hcc.petclinic.services.VetService;
 
 @Component
 public class DataLoader implements CommandLineRunner {
     private final OwnerService ownerService;
     private final VetService vetService;
 
-    public DataLoader() {
-        ownerService = new OwnerServiceMap();
-        vetService = new VetServiceMap();
+    @Autowired
+    public DataLoader(OwnerService ownerService, VetService vetService) {
+        this.ownerService = ownerService;
+        this.vetService = vetService;
     }
 
     @Override

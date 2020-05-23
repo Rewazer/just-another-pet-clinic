@@ -1,4 +1,4 @@
-package ru.hcc.model;
+package ru.hcc.petclinic.model;
 
 import java.time.LocalDate;
 
