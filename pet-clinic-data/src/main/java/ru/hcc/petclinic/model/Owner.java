@@ -1,4 +1,7 @@
 package ru.hcc.petclinic.model;
 
-public class Owner extends Person{
+import java.util.Set;
+
+public class Owner extends Person {
+    private Set<Pet> pets;
 }
