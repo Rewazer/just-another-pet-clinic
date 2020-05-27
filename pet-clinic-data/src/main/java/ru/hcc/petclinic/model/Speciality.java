@@ -4,7 +4,7 @@
 
 package ru.hcc.petclinic.model;
 
-public class Specialty extends BaseEntity {
+public class Speciality extends BaseEntity {
     private String description;
 
     public String getDescription() {
